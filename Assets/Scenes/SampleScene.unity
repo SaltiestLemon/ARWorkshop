@@ -730,6 +730,9 @@ GameObject:
   - component: {fileID: 1885030224}
   - component: {fileID: 1885030226}
   - component: {fileID: 1885030227}
+  - component: {fileID: 1885030230}
+  - component: {fileID: 1885030229}
+  - component: {fileID: 1885030228}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -803,6 +806,53 @@ MonoBehaviour:
   prefabsToSpawn:
   - {fileID: 4171146292698526628, guid: 5b82bbd59f3b46b41b69efd74fc5ca00, type: 3}
   - {fileID: 4171146292698526628, guid: eb1ff4ce343cf5e4a8c782a4210b9d98, type: 3}
+--- !u!114 &1885030228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885030223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a2837dbffe497a4c83bda25980ec902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToPlace: {fileID: 5504698553996893252, guid: cf185ee1f2d2a8f4da2d0085096a7932, type: 3}
+  raycastManager: {fileID: 1885030230}
+--- !u!114 &1885030229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885030223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <trackablesChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  m_PlanePrefab: {fileID: 0}
+  m_DetectionMode: 1
+--- !u!114 &1885030230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885030223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <trackablesChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  m_RaycastPrefab: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
