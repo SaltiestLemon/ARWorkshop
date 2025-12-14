@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4742116609002165253
+  m_GuidHigh: 731622501511732667
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4934612198044805009
+      m_GuidHigh: 5996681807793486221
+    m_SerializedTextureGuid:
+      m_GuidLow: 17952492900406921456
+      m_GuidHigh: 12680401378047560906
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: UniLogo
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5482664433039151869
+      m_GuidHigh: 9788757939344327615
+    m_SerializedTextureGuid:
+      m_GuidLow: 334454795736926957
+      m_GuidHigh: 10417751068557258699
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: catVR
+    m_Texture: {fileID: 0}
